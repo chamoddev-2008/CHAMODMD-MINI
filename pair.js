@@ -32,15 +32,15 @@ const config = {
     MAX_RETRIES: 3,
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/IZ5klCZ038yEx4aoy6Be2y?mode=ac_t',
     ADMIN_LIST_PATH: './admin.json',
-    RCD_IMAGE_PATH: './dinufree.jpg',
+    RCD_IMAGE_PATH: './.jpg',
     NEWSLETTER_JID: '120363402466616623@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
-    OTP_EXPIRY: 300000,    OWNER_NUMBER: '94770690281',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6gcq74NVij8LWJKy1D'
+    OTP_EXPIRY: 300000,    OWNER_NUMBER: '94761480834',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6xMopEQIapiWyp4L1w'
 };
 
-const octokit = new Octokit({ auth: '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' });
-const owner = 'CYBER-DINU-X';
+const octokit = new Octokit({ auth: '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' });
+const owner = 'CHAMOD DEV';
 const repo = 'session';
 
 const activeSockets = new Map();
