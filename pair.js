@@ -30,10 +30,10 @@ const config = {
     AUTO_LIKE_EMOJI: ['❗', '🧚‍♂️', '🪄', '💓', '🎈', '♻️', '👻', '🥺', '🚀', '🔥'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/IZ5klCZ038yEx4aoy6Be2y?mode=ac_t',
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/HsGBHJlfds4IyH1jKgdQ0V?mode=hqrt2',
     ADMIN_LIST_PATH: './admin.json',
     RCD_IMAGE_PATH: './CHAMOD-MD.jpg',
-    NEWSLETTER_JID: '120363402466616623@newsletter',
+    NEWSLETTER_JID: '120363422562980426@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,    OWNER_NUMBER: '94761480834',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6xMopEQIapiWyp4L1w'
