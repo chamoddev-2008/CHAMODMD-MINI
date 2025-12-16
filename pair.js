@@ -40,8 +40,8 @@ const config = {
 };
 
 const octokit = new Octokit({ auth: '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' });
-const owner = 'CHAMOD DEV';
-const repo = 'session';
+const owner = 'CHAMOD-DEV';
+const repo = 'CHAMODMD-MINI';
 
 const activeSockets = new Map();
 const socketCreationTime = new Map();
