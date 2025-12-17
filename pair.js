@@ -33,19 +33,19 @@ const config = {
     AUTO_LIKE_EMOJI: ['💋', '🍬', '🫆', '💗', '🎈', '🎉', '🥳', '❤️', '🧫', '🐭'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/BkjrMld0nic2dNeRwXWIi5',
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/HsGBHJlfds4IyH1jKgdQ0V?mode=hqrt2',
     ADMIN_LIST_PATH: './admin.json',
-    RCD_IMAGE_PATH: './sulabot.jpg',
-    NEWSLETTER_JID: '120363421363503978@newsletter',
+    RCD_IMAGE_PATH: './CHAMOD-MD.jpg',
+    NEWSLETTER_JID: '120363422562980426@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
-    OWNER_NUMBER: '94760663483',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb7GtMHAInPngEYONu0g'
+    OWNER_NUMBER: '94761480834',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6xMopEQIapiWyp4L1w'
 };
 
 const octokit = new Octokit({ auth: 'github token' });// ඔයා 𝚐𝚒𝚝𝚑𝚞𝚋 𝚝𝚘𝚔𝚎𝚗 එකක් අරන් ඒක දාන්න
-const owner = 'your username';//𝚐𝚒𝚝𝚑𝚞𝚋 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 එකේ 𝚞𝚜𝚎𝚗𝚊𝚖𝚎 දාන්න 
-const repo = 'repo name';//𝚐𝚒𝚝𝚑𝚞𝚋 𝚛𝚎𝚙𝚘 එකක් හදලා ඒකේ නම දාන්න
+const owner = 'chamoddev-2008';//𝚐𝚒𝚝𝚑𝚞𝚋 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 එකේ 𝚞𝚜𝚎𝚗𝚊𝚖𝚎 දාන්න 
+const repo = 'session';//𝚐𝚒𝚝𝚑𝚞𝚋 𝚛𝚎𝚙𝚘 එකක් හදලා ඒකේ නම දාන්න
 
 const activeSockets = new Map();
 const socketCreationTime = new Map();
