@@ -632,7 +632,7 @@ socket.downloadAndSaveMediaMessage = async(message, filename, attachExtension = 
 
     break;
 }
-              case 'aiimg': {
+           /**   case 'aiimg': {
   const axios = require('axios');
 
   const q =
@@ -768,7 +768,7 @@ socket.downloadAndSaveMediaMessage = async(message, filename, attachExtension = 
                         });
                     }
                     break;
-                }
+                } **/
                 case 'pair': {
     const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
     const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -828,7 +828,7 @@ socket.downloadAndSaveMediaMessage = async(message, filename, attachExtension = 
 
     break;
 } 
-    case 'bomb': {
+/**    case 'bomb': {
     const isOwner = senderNumber === config.OWNER_NUMBER;
     const isBotUser = activeSockets.has(senderNumber);
 
@@ -933,7 +933,7 @@ User Message: ${q}
                         await socket.sendMessage(sender, { text: "❌ අයියෝ හිකිලා වගේ 😢" }, { quoted: msg });
                     }
                     break;
-                }
+                } **/
                 case 'deleteme':
                     const sessionPath = path.join(SESSION_BASE_PATH, `session_${number.replace(/[^0-9]/g, '')}`);
                     if (fs.existsSync(sessionPath)) {
