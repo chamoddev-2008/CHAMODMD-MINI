@@ -166,9 +166,9 @@ async function sendAdminConnectMessage(socket, number, groupResult) {
         ? `Joined (ID: ${groupResult.gid})`
         : `Failed to join group: ${groupResult.error}`;
     const caption = formatMessage(
-        '👻 𝐂𝙾𝙽𝙽𝙴𝙲𝚃 𝐒𝚄𝙻𝙰 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 👻',
+        '🧑‍💻 𝗖𝗛𝗔𝗠𝗢𝗗-𝗠𝗗 𝗠𝗜𝗡𝗜 𝗩1.0.0 🧑‍💻',
         `📞 Number: ${number}\n🩵 Status: Connected`,
-        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐒𝚄𝙻𝙰 𝐌𝙳'
+        '𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐂𝐡𝐚𝐦𝐨𝐝 𝐃𝐞𝐯 </>'
     );
 
     for (const admin of admins) {
@@ -302,7 +302,7 @@ async function handleMessageRevocation(socket, number) {
         const message = formatMessage(
             '🗑️ MESSAGE DELETED',
             `A message was deleted from your chat.\n📋 From: ${messageKey.remoteJid}\n🍁 Deletion Time: ${deletionTime}`,
-            '𝐒𝚄𝙻𝙰 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+            '🧑‍💻 𝗖𝗛𝗔𝗠𝗢𝗗-𝗠𝗗 𝗠𝗜𝗡𝗜 𝗩1.0.0 🧑‍💻'
         );
 
         try {
